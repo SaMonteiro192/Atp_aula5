@@ -1,6 +1,8 @@
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
+
 
 // 1. imprime_ola
 void imprime_ola() {
@@ -8,7 +10,7 @@ void imprime_ola() {
 }
 
 // 2. função quadrática
-float a = 1, b = 2, c = 1; // variáveis globais
+float a = 1, b = 2, c = 1;
 float funcao_quadratica(float x) {
     return a*x*x + b*x + c;
 }
